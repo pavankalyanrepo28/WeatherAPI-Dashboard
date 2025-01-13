@@ -34,12 +34,6 @@ A Spring Boot application that demonstrates integration with the OpenWeatherMap 
    curl http://localhost:8080/api/weather/London
    ```
 
-## Environment Variables
-
-- `WEATHER_API_KEY`: Your OpenWeatherMap API key (required)
-  - For local development: d7ea332dcd25bf561460badbe1df98fb
-  - For production: Use your own API key
-
 ## API Endpoints
 
 - GET `/api/weather/{city}` - Get weather information for a specific city
